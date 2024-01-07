@@ -1,0 +1,101 @@
+@font-face {
+    font-family:Fraunces ;
+    src: url(Fraunces_9pt_SuperSoft-SemiBold.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-SemiBold.ttf);
+}
+body{
+    background-color:hsl(30, 38%, 92%) ;
+}
+.div-container{
+height: 30rem;
+width: 40rem;
+display: flex;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
+.left-div{
+    height:30rem ;
+    width: 20rem;
+    display: flex;
+    border-radius: 20px 0 0 20px;
+}
+.right-div{
+    height:30rem ;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.image{
+    height: 30rem;
+    width: 20rem;
+    border-radius: 20px 0 0 20px;
+    
+}
+.div1{
+    margin-left: 2rem;
+    font-family:Montserrat ;
+    letter-spacing: 2px;
+    color: rgb(153, 153, 153);
+
+}
+.div2{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.div3{
+    margin-left: 2rem;
+    font-family: Montserrat;
+    color: rgb(153, 153, 153);
+}
+.div4{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+}
+.cartbutton{
+    margin-left: 2rem;
+    height: 3rem;
+    width: 16rem;
+    border-radius: 10px;
+    font-family: Montserrat;
+    cursor: pointer;
+    background-color: rgb(91, 138, 97);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    
+}
+.cartbutton:hover{
+    background-color: rgb(57, 97, 62);
+}
+span1{
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(91, 138, 97);
+
+}
+span2{
+    text-decoration: line-through;
+    color:rgb(153, 153, 153) ;
+    font-family:Montserrat ;
+}
